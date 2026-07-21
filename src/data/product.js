@@ -1,0 +1,123 @@
+const products = {
+  products: [
+    {
+      id: 1,
+      name: "MacBook Pro M4",
+      brand: "Apple",
+      category: "Laptop",
+      price: 2499,
+      rating: 4.9,
+      stock: 18,
+      color: "Space Black",
+      description:
+        "Powerful laptop with the latest Apple M4 chip for professionals.",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/MacBook_Pro.jpg",
+    },
+    {
+      id: 2,
+      name: "Galaxy S25 Ultra",
+      brand: "Samsung",
+      category: "Smartphone",
+      price: 1399,
+      rating: 4.8,
+      stock: 24,
+      color: "Titanium Gray",
+      description:
+        "Premium Android smartphone with AI-powered camera features.",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung_Galaxy_S25_Ultra.jpg",
+    },
+    {
+      id: 3,
+      name: "Sony WH-1000XM6",
+      brand: "Sony",
+      category: "Headphones",
+      price: 449,
+      rating: 4.9,
+      stock: 15,
+      color: "Black",
+      description:
+        "Industry-leading wireless noise cancelling headphones.",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.4.jpg",
+    },
+    {
+      id: 4,
+      name: "Logitech G Pro X",
+      brand: "Logitech",
+      category: "Keyboard",
+      price: 169,
+      rating: 4.7,
+      stock: 30,
+      color: "Black",
+      description:
+        "Mechanical RGB gaming keyboard built for professionals.",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Logitech_G_PRO_TKL_gaming_keyboard_-_English_%28United_States%29_layout.jpg",
+    },
+    {
+      id: 5,
+      name: "Razer DeathAdder V3",
+      brand: "Razer",
+      category: "Mouse",
+      price: 99,
+      rating: 4.8,
+      stock: 40,
+      color: "Black",
+      description:
+        "Ultra-light gaming mouse with Focus Pro optical sensor.",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/RAZER_DEATHADDER.jpg",
+    },
+    {
+      id: 6,
+      name: "LG UltraGear",
+      brand: "LG",
+      category: "Monitor",
+      price: 699,
+      rating: 4.9,
+      stock: 12,
+      color: "Black",
+      description:
+        "27-inch QHD gaming monitor with 165Hz refresh rate.",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Monitor_LG.jpg",
+    },
+    {
+      id: 7,
+      name: "Apple Watch Ultra 2",
+      brand: "Apple",
+      category: "Smart Watch",
+      price: 899,
+      rating: 4.9,
+      stock: 16,
+      color: "Titanium",
+      description:
+        "Premium smartwatch with advanced fitness and health tracking.",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Apple_Watch_Ultra_-_1.jpg",
+    },
+    {
+      id: 8,
+      name: "Canon EOS R8",
+      brand: "Canon",
+      category: "Camera",
+      price: 1599,
+      rating: 4.8,
+      stock: 10,
+      color: "Black",
+      description:
+        "Full-frame mirrorless camera designed for creators.",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Canon_EOS_R8_27_may_2023a.jpg",
+    },
+    {
+      id: 9,
+      name: "JBL Charge 6",
+      brand: "JBL",
+      category: "Speaker",
+      price: 199,
+      rating: 4.7,
+      stock: 25,
+      color: "Blue",
+      description:
+        "Portable waterproof Bluetooth speaker with powerful bass.",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/JBL_Charge_4_1v2.jpg",
+    },
+  ],
+};
+
+export default products;

@@ -1,33 +1,31 @@
 import { Link } from "react-router-dom";
 import data from "../data/product";
 
-const HomePage = () => {
-  const { products } = data;
-
+const ProductsPage = () => {
   return (
-    <div>
-      <h1 className="mb-10 text-center text-4xl font-bold">
-        Our Products
-      </h1>
+    <div className="mx-auto max-w-7xl">
+      <h2 className="mb-10 text-center text-4xl font-bold">
+        Products
+      </h2>
 
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {products.map((product) => (
+      <div className="flex flex-wrap justify-center gap-8">
+        {data.products.map((product) => (
           <div
             key={product.id}
-            className="overflow-hidden rounded-2xl bg-white shadow transition hover:-translate-y-2 hover:shadow-xl"
+            className="w-80 overflow-hidden rounded-2xl bg-white shadow-md transition hover:-translate-y-2 hover:shadow-xl"
           >
             <img
               src={product.img}
               alt={product.name}
-              className="h-64 w-full object-cover"
+              className="h-60 w-full object-cover"
             />
 
-            <div className="p-6">
-              <h2 className="text-2xl font-bold">{product.name}</h2>
+            <div className="p-5">
+              <h3 className="text-2xl font-bold">{product.name}</h3>
 
               <p className="mt-2 text-gray-500">{product.brand}</p>
 
-              <p className="mt-3 text-lg font-semibold text-indigo-600">
+              <p className="mt-4 text-2xl font-bold text-indigo-600">
                 ${product.price}
               </p>
 
@@ -45,4 +43,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default ProductsPage;
